@@ -1,0 +1,25 @@
+# --- Dados ---
+# Ignora absolutamente tudo dentro da pasta data
+data/
+# Caso queira manter a estrutura de pastas no GitHub mas sem os arquivos:
+# !data/.gitkeep
+
+# --- Ambientes Virtuais e Gerenciadores ---
+.venv/
+uv.lock
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.pytest_cache/
+.ruff_cache/
+
+# --- IDEs ---
+.vscode/
+.idea/
+
+# --- OS específicos ---
+.DS_Store
+Thumbs.db
